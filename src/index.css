@@ -1,0 +1,47 @@
+:root {
+  --textAccentColor: rgb(59, 186, 228);
+  --bgAccentColor: rgb(19, 18, 18);
+}
+
+body {
+  background-color: #25252d;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: Inter, Impact, Arial, sans-serif;
+}
+
+nav {
+  padding: 15px 5%;
+  background-color: var(--bgAccentColor);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 1px 3px var(--bgAccentColor);
+}
+
+nav h1 {
+  color: var(--textAccentColor);
+}
+
+main {
+  padding: 5% 15%;
+}
+
+.main-list li {
+  margin: 1em;
+}
+
+.main-list li::marker{
+  color: var(--textAccentColor);
+  font-size: 1.5em;
+}
+
+.bg-logo {
+  width: 45vw;
+  position: relative;
+  bottom: 200px;
+  left: 85%;
+  z-index: -1;
+  filter: grayscale(90%) opacity(10%) brightness(80%);
+}
