@@ -3,7 +3,7 @@
 }
 
 :root {
-  --textAccentColor: rgb(59, 186, 228);
+  --textAccentColor: #61DAFB;
   --bgAccentColor: #21222A;
 }
 
@@ -13,14 +13,17 @@ body {
   padding: 0;
   margin: 0;
   font-family: Inter, Impact, Arial, sans-serif;
+
 }
 
 header {
+  padding: 30px 25px;
   background-color: var(--bgAccentColor);
+  height: 90px;
 }
 
 nav {
-  padding: 30px 25px;
+  height: 100%;
   display: flex;
   align-items: center;
   gap: 15px;
@@ -33,7 +36,8 @@ nav > img {
 
 nav > span {
   color: var(--textAccentColor);
-  font-weight: 800;
+  font-weight: 700;
+  font-size: 1.4rem;
 }
 
 main {
