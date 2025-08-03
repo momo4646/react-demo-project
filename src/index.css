@@ -1,6 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --textAccentColor: rgb(59, 186, 228);
-  --bgAccentColor: rgb(19, 18, 18);
+  --bgAccentColor: #21222A;
 }
 
 body {
@@ -11,17 +15,25 @@ body {
   font-family: Inter, Impact, Arial, sans-serif;
 }
 
-nav {
-  padding: 15px 5%;
+header {
   background-color: var(--bgAccentColor);
+}
+
+nav {
+  padding: 30px 25px;
   display: flex;
   align-items: center;
   gap: 15px;
   box-shadow: 0 1px 3px var(--bgAccentColor);
 }
 
-nav h1 {
+nav > img {
+  width: 40px;
+}
+
+nav > span {
   color: var(--textAccentColor);
+  font-weight: 800;
 }
 
 main {
