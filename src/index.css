@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #25252d;
+  background-color: #282D35;
   color: #fff;
   padding: 0;
   margin: 0;
@@ -41,14 +41,25 @@ nav > span {
 }
 
 main {
-  padding: 5% 15%;
+  padding: 60px 30px;
 }
 
-.main-list li {
-  margin: 1em;
+.main-title {
+  margin: 0;
+  font-size: 2.4rem;
 }
 
-.main-list li::marker{
+.main-list {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main-list > li {
+  padding-block: 10px;
+  line-height: 19px;
+}
+
+.main-list > li::marker{
   color: var(--textAccentColor);
   font-size: 1.5em;
 }
