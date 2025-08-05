@@ -11,7 +11,9 @@ export default function Main() {
                 <li>Is maintained by Meta</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
-            <img class='bg-logo' src='/src/assets/react.svg' aria-hidden='true'/>
+            <div className='bg-logo-container'>
+            <img className='bg-logo' src='/src/assets/react.svg' aria-hidden='true'/>
+            </div>
         </main>
     )
 }
