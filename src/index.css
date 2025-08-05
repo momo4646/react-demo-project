@@ -42,6 +42,7 @@ nav > span {
 
 main {
   padding: 60px 30px;
+  overflow: hidden;
 }
 
 .main-title {
@@ -61,14 +62,14 @@ main {
 
 .main-list > li::marker{
   color: var(--textAccentColor);
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .bg-logo {
-  width: 45vw;
+  width: 300px;
   position: relative;
   bottom: 200px;
-  left: 85%;
+  left: 75%;
   z-index: -1;
   filter: grayscale(90%) opacity(10%) brightness(80%);
 }
